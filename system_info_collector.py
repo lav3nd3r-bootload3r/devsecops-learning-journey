@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
 system information collector
-A basic securty audit script for gathering system information
-Perfect for compliance documentation and securtiy assessments
+A basic security audit script for gathering system information
+Perfect for compliance documentation and security assessments
 """
 
 import os
