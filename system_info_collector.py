@@ -21,6 +21,7 @@ def collect_system_info():
     print(f"Release: {platform.release()}")
     print(f"Machine: {platform.machine()}")
     print(f"Hostname: {socket.gethostname()}")
+    print(f"Python Version: {platform.python_version()}")
     #Current User Information
     print(f"Current User: {os.getenv('USER', 'Unknown')}")
     print(f"Working Directory: {os.getcwd()}")
