@@ -14,6 +14,7 @@ def collect_system_info():
     """ Collect basic system information for security documentation """
     print ("""=== SYSTEM SECURITY AUDIT ===""")
     print (f"audit date: {datetime.now().strftime('%y-%m-%d %H:%M:%S')}")
+    print (f"System Uptime Check: {datetime.now().strftime('%A, %B %d at %I:%M %p')}")
     print("-" *40)
     
     #system information
